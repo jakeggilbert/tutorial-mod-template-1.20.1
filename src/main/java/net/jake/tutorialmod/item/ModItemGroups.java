@@ -27,6 +27,10 @@ public class ModItemGroups {
                 entries.add(new ItemStack(ModItems.RAW_RUBY));
                 entries.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                 entries.add(new ItemStack(ModBlocks.RUBY_ORE));
+                entries.add(new ItemStack(ModItems.RUBY_HELMET));
+                entries.add(new ItemStack(ModItems.RUBY_CHESPLATE));
+                entries.add(new ItemStack(ModItems.RUBY_LEGGINGS));
+                entries.add(new ItemStack(ModItems.RUBY_BOOTS));
             }).build());
 
     public static void registerModItemGroups() {
