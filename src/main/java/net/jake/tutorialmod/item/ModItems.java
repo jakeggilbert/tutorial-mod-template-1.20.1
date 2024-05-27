@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item DRAGON_SCALE = registerItem("dragon_scale", new Item(new FabricItemSettings()));
+
 
     // ruby armor set
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
@@ -31,6 +33,20 @@ public class ModItems {
                     new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS,
+                    new FabricItemSettings()));
+
+    // dragon armor set
+    public static final Item DRAGON_HELMET = registerItem("dragon_helmet",
+            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.HELMET,
+                    new FabricItemSettings()));
+    public static final Item DRAGON_CHESPLATE = registerItem("dragon_chestplate",
+            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.CHESTPLATE,
+                    new FabricItemSettings()));
+    public static final Item DRAGON_LEGGINGS = registerItem("dragon_leggings",
+            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.LEGGINGS,
+                    new FabricItemSettings()));
+    public static final Item DRAGON_BOOTS = registerItem("dragon_boots",
+            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
     private static void addItemToIngredientsTab(FabricItemGroupEntries group){

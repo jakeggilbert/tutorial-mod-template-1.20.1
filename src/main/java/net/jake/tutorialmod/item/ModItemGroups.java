@@ -25,12 +25,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("tutorialmod.ruby")).icon(ModItemGroups.rubyIcon).entries((displayContext, entries) -> {
                 entries.add(new ItemStack(ModItems.RUBY));
                 entries.add(new ItemStack(ModItems.RAW_RUBY));
+                entries.add(new ItemStack(ModItems.DRAGON_SCALE));
                 entries.add(new ItemStack(ModBlocks.RUBY_BLOCK));
                 entries.add(new ItemStack(ModBlocks.RUBY_ORE));
                 entries.add(new ItemStack(ModItems.RUBY_HELMET));
                 entries.add(new ItemStack(ModItems.RUBY_CHESPLATE));
                 entries.add(new ItemStack(ModItems.RUBY_LEGGINGS));
                 entries.add(new ItemStack(ModItems.RUBY_BOOTS));
+                entries.add(new ItemStack(ModItems.DRAGON_HELMET));
+                entries.add(new ItemStack(ModItems.DRAGON_CHESPLATE));
+                entries.add(new ItemStack(ModItems.DRAGON_LEGGINGS));
+                entries.add(new ItemStack(ModItems.DRAGON_BOOTS));
             }).build());
 
     public static void registerModItemGroups() {
