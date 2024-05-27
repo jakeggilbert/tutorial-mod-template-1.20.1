@@ -1,4 +1,8 @@
 {
-  "item.tutorialmod.ruby" : "Ruby"
+  "item.tutorialmod.ruby" : "Ruby",
+  "item.tutorialmod.raw_ruby" : "Raw Ruby",
+  "itemgroup.ruby" : "Rubies",
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.ruby_ore": "Ruby Ore"
 
 }
