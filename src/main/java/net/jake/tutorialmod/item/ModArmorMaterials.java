@@ -22,6 +22,15 @@ public enum ModArmorMaterials implements StringIdentifiable, ArmorMaterial {
         map.put(Type.HELMET, 4);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.RUBY});
+    }),
+
+    DRAGON("dragon", 37, (EnumMap)Util.make(new EnumMap(Type.class), (map) -> {
+        map.put(Type.BOOTS, 4);
+        map.put(Type.LEGGINGS, 7);
+        map.put(Type.CHESTPLATE, 9);
+        map.put(Type.HELMET, 4);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{ModItems.DRAGON_SCALE});
     });
 
     public static final Codec<ArmorMaterials> CODEC = StringIdentifiable.createCodec(ArmorMaterials::values);
