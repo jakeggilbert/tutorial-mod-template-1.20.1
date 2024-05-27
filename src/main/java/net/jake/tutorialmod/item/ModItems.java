@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.impl.itemgroup.FabricItemGroup;
 import net.jake.tutorialmod.TutorialMod;
+import net.jake.tutorialmod.item.custom.ModArmorDragon;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -37,16 +38,16 @@ public class ModItems {
 
     // dragon armor set
     public static final Item DRAGON_HELMET = registerItem("dragon_helmet",
-            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.HELMET,
+            new ModArmorDragon(ModArmorMaterials.DRAGON, ArmorItem.Type.HELMET,
                     new FabricItemSettings()));
     public static final Item DRAGON_CHESPLATE = registerItem("dragon_chestplate",
-            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.CHESTPLATE,
+            new ModArmorDragon(ModArmorMaterials.DRAGON, ArmorItem.Type.CHESTPLATE,
                     new FabricItemSettings()));
     public static final Item DRAGON_LEGGINGS = registerItem("dragon_leggings",
-            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.LEGGINGS,
+            new ModArmorDragon(ModArmorMaterials.DRAGON, ArmorItem.Type.LEGGINGS,
                     new FabricItemSettings()));
     public static final Item DRAGON_BOOTS = registerItem("dragon_boots",
-            new ArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.BOOTS,
+            new ModArmorDragon(ModArmorMaterials.DRAGON, ArmorItem.Type.BOOTS,
                     new FabricItemSettings()));
 
     private static void addItemToIngredientsTab(FabricItemGroupEntries group){
